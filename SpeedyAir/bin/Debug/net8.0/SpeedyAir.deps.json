@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SpeedyAir/1.0.0": {
+        "dependencies": {
+          "SpeedyAir.Models": "1.0.0",
+          "SppedyAir.Services": "1.0.0"
+        },
+        "runtime": {
+          "SpeedyAir.dll": {}
+        }
+      },
+      "SpeedyAir.Models/1.0.0": {
+        "runtime": {
+          "SpeedyAir.Models.dll": {}
+        }
+      },
+      "SppedyAir.Services/1.0.0": {
+        "dependencies": {
+          "SpeedyAir.Models": "1.0.0"
+        },
+        "runtime": {
+          "SppedyAir.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpeedyAir/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpeedyAir.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SppedyAir.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
