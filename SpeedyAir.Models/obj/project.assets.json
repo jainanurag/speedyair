@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\learn\\dotnet\\SpeedyAir\\SpeedyAir.Models\\SpeedyAir.Models.csproj",
+      "projectUniqueName": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir.Models\\SpeedyAir.Models.csproj",
       "projectName": "SpeedyAir.Models",
-      "projectPath": "C:\\dev\\learn\\dotnet\\SpeedyAir\\SpeedyAir.Models\\SpeedyAir.Models.csproj",
+      "projectPath": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir.Models\\SpeedyAir.Models.csproj",
       "packagesPath": "C:\\Users\\anurag\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\learn\\dotnet\\SpeedyAir\\SpeedyAir.Models\\obj\\",
+      "outputPath": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anurag\\AppData\\Roaming\\NuGet\\NuGet.Config",

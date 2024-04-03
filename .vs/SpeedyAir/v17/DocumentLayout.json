@@ -1,12 +1,106 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\dev\\learn\\dotnet\\speedyair\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\schedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\schedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386BAF27-18E2-4BA9-AF45-5A009E92DCC5}|SpeedyAir\\SpeedyAir.csproj|c:\\dev\\learn\\dotnet\\speedyair\\speedyair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386BAF27-18E2-4BA9-AF45-5A009E92DCC5}|SpeedyAir\\SpeedyAir.csproj|solutionrelative:speedyair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6EDE7C-8787-4423-B5A9-A9670F6F9C2D}|SpeedyAir.Models\\SpeedyAir.Models.csproj|c:\\dev\\learn\\dotnet\\speedyair\\speedyair.models\\scheduleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6EDE7C-8787-4423-B5A9-A9670F6F9C2D}|SpeedyAir.Models\\SpeedyAir.Models.csproj|solutionrelative:speedyair.models\\scheduleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\assets\\coding-assigment-orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\assets\\coding-assigment-orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir\\Program.cs",
+              "RelativeDocumentMoniker": "SpeedyAir\\Program.cs",
+              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir\\Program.cs",
+              "RelativeToolTip": "SpeedyAir\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T22:04:29.104Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "coding-assigment-orders.json",
+              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\assets\\coding-assigment-orders.json",
+              "RelativeDocumentMoniker": "SppedyAir.Services\\assets\\coding-assigment-orders.json",
+              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\assets\\coding-assigment-orders.json",
+              "RelativeToolTip": "SppedyAir.Services\\assets\\coding-assigment-orders.json",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T22:34:19.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScheduleInfo.cs",
+              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir.Models\\ScheduleInfo.cs",
+              "RelativeDocumentMoniker": "SpeedyAir.Models\\ScheduleInfo.cs",
+              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir.Models\\ScheduleInfo.cs",
+              "RelativeToolTip": "SpeedyAir.Models\\ScheduleInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T22:05:06.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "SppedyAir.Services\\OrderService.cs",
+              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\OrderService.cs",
+              "RelativeToolTip": "SppedyAir.Services\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:56:16.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SchedulerService.cs",
+              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\SchedulerService.cs",
+              "RelativeDocumentMoniker": "SppedyAir.Services\\SchedulerService.cs",
+              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\SchedulerService.cs",
+              "RelativeToolTip": "SppedyAir.Services\\SchedulerService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:55:55.849Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

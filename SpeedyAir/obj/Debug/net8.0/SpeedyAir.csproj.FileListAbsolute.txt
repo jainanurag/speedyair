@@ -19,3 +19,4 @@ C:\dev\learn\dotnet\SpeedyAir\SpeedyAir\bin\Debug\net8.0\SppedyAir.Services.pdb
 C:\dev\learn\dotnet\SpeedyAir\SpeedyAir\obj\Debug\net8.0\SpeedyAir.csproj.AssemblyReference.cache
 C:\dev\learn\dotnet\SpeedyAir\SpeedyAir\obj\Debug\net8.0\SpeedyAir.csproj.Up2Date
 C:\dev\learn\dotnet\speedyair\SpeedyAir\obj\Debug\net8.0\SpeedyAir.sourcelink.json
+C:\dev\learn\dotnet\speedyair\SpeedyAir\bin\Debug\net8.0\Newtonsoft.Json.dll
