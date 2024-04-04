@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace SppedyAir.Services;
 
+/// <summary>
+/// Order Service
+/// </summary>
 public class OrderService
 {
 
@@ -19,6 +22,10 @@ public class OrderService
 
     #region [ Public Methods]
 
+    /// <summary>
+    /// Provide Order Object
+    /// </summary>
+    /// <returns></returns>
     public Dictionary<string, Order>? GetOrders()
     {
         Dictionary<string, Order>? orderInfo = JsonConvert.DeserializeObject<Dictionary<string, Order>>(Constants.OrderInfoJSON);
@@ -30,28 +37,7 @@ public class OrderService
 
     #region [ Private Methods]
 
-    //private string GetOrders()
-    //{
-
-    //    string jsonString = string.Empty;
-
-    //    jsonString = File.ReadAllText("C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\assets\\coding-assigment-orders.json");
-
-    //    return jsonString;
-
-    //}
-
-    /// <summary>
-    /// 
-    /// </summary>
-    //public string JSON
-    //{
-    //    get
-    //    { return string.Empty; }
-
-
-    //}
-
+    
 
     #endregion
 

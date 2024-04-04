@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\dev\\learn\\dotnet\\speedyair\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\schedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\schedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{386BAF27-18E2-4BA9-AF45-5A009E92DCC5}|SpeedyAir\\SpeedyAir.csproj|c:\\dev\\learn\\dotnet\\speedyair\\speedyair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{386BAF27-18E2-4BA9-AF45-5A009E92DCC5}|SpeedyAir\\SpeedyAir.csproj|solutionrelative:speedyair\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D6EDE7C-8787-4423-B5A9-A9670F6F9C2D}|SpeedyAir.Models\\SpeedyAir.Models.csproj|c:\\dev\\learn\\dotnet\\speedyair\\speedyair.models\\scheduleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D6EDE7C-8787-4423-B5A9-A9670F6F9C2D}|SpeedyAir.Models\\SpeedyAir.Models.csproj|solutionrelative:speedyair.models\\scheduleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\schedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\schedulerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\assets\\coding-assigment-orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\assets\\coding-assigment-orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|solutionrelative:sppedyair.services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6EDE7C-8787-4423-B5A9-A9670F6F9C2D}|SpeedyAir.Models\\SpeedyAir.Models.csproj|c:\\dev\\learn\\dotnet\\speedyair\\speedyair.models\\scheduleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6EDE7C-8787-4423-B5A9-A9670F6F9C2D}|SpeedyAir.Models\\SpeedyAir.Models.csproj|solutionrelative:speedyair.models\\scheduleinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7B0BA20-D27B-40DE-9F22-EC03821D03BD}|SppedyAir.Services\\SppedyAir.Services.csproj|c:\\dev\\learn\\dotnet\\speedyair\\sppedyair.services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir\\Program.cs",
               "RelativeDocumentMoniker": "SpeedyAir\\Program.cs",
               "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir\\Program.cs",
               "RelativeToolTip": "SpeedyAir\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T22:04:29.104Z",
               "IsPinned": true,
@@ -48,20 +48,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "coding-assigment-orders.json",
-              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\assets\\coding-assigment-orders.json",
-              "RelativeDocumentMoniker": "SppedyAir.Services\\assets\\coding-assigment-orders.json",
-              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\assets\\coding-assigment-orders.json",
-              "RelativeToolTip": "SppedyAir.Services\\assets\\coding-assigment-orders.json",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T22:34:19.84Z",
+              "DocumentIndex": 2,
+              "Title": "FlightService.cs",
+              "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\FlightService.cs",
+              "RelativeDocumentMoniker": "SppedyAir.Services\\FlightService.cs",
+              "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\FlightService.cs",
+              "RelativeToolTip": "SppedyAir.Services\\FlightService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T14:11:56.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ScheduleInfo.cs",
               "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SpeedyAir.Models\\ScheduleInfo.cs",
               "RelativeDocumentMoniker": "SpeedyAir.Models\\ScheduleInfo.cs",
@@ -80,20 +80,20 @@
               "RelativeDocumentMoniker": "SppedyAir.Services\\OrderService.cs",
               "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\OrderService.cs",
               "RelativeToolTip": "SppedyAir.Services\\OrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T21:56:16.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SchedulerService.cs",
               "DocumentMoniker": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\SchedulerService.cs",
               "RelativeDocumentMoniker": "SppedyAir.Services\\SchedulerService.cs",
               "ToolTip": "C:\\dev\\learn\\dotnet\\speedyair\\SppedyAir.Services\\SchedulerService.cs",
               "RelativeToolTip": "SppedyAir.Services\\SchedulerService.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFgAAABCAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T21:55:55.849Z",
               "EditorCaption": ""

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SppedyAir.Services;
 
+/// <summary>
+/// Static Class
+/// </summary>
 public static class Constants
 {
 
