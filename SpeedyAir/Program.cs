@@ -64,6 +64,38 @@ else
     Console.WriteLine("********No Scheduling Data found***************");
 }
 
+Console.WriteLine("User Story # 3");
+Console.WriteLine("******************************************************");
+
+List<ScheduleInfo> scheduleInfoByFlight = new SchedulerService().GetByFlight(3);
+
+
+//foreach (ScheduleInfo scheduleInfo in scheduleInfoByFlight)
+//{
+//    Console.WriteLine(scheduleInfo.ToStringByFlightNum(scheduleInfo.OrderNumber));
+//}
+
+for (int i = 0; i < scheduleInfoByFlight.Count; i++)
+{
+    FlightInfo flightInfoTemp = scheduleInfoByFlight[i].FlightInfo;
+
+    if (i == 0)
+        Console.WriteLine($"flightNumber: {flightInfoTemp.FlightNumberVal}, departure: {flightInfoTemp.FromAirport.Code}, arrival: {flightInfoTemp.DestAirport.Code}, day: {flightInfoTemp.DayVal}");
+
+    Console.WriteLine($"Order:{ scheduleInfoByFlight[i].OrderNumber}");
+
+}
+
+Console.WriteLine("User Story # 4");
+
+List<ScheduleInfo>  scheduleInfoByPrior = new SchedulerService().GetScheduleByPriority();
+
+Console.WriteLine("***************Package Schedule By Priority***********************");
+
+foreach (ScheduleInfo scheduleInfo in scheduleInfoByPrior)
+{
+    Console.WriteLine(scheduleInfo.ToString());
+}
 
 Console.WriteLine("*********************E N D*****************************");
 Console.WriteLine("Press ENTER to EXIT");

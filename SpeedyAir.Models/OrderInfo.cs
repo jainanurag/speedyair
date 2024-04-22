@@ -10,6 +10,7 @@ namespace SpeedyAir.Models;
 public class Order
 {
     public required string Destination { get; set; }
+    public required string Service { get; set; }
 
 }
 

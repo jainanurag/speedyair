@@ -3,6 +3,7 @@ using SpeedyAir.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Authentication.ExtendedProtection;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,6 +40,8 @@ public class SchedulerService
         List<FlightInfo>? flights = flightService.GetFlights();
         Dictionary<string, Order>? orders = orderService.GetOrders();
 
+        //Dictionary<string, Order>? ordersWithPrior = orderService.GetOrdersByPriority();
+
         scheduleInfoList.AddRange(GetByDestination("YYZ", flights, orders));
         scheduleInfoList.AddRange(GetByDestination("YYC", flights, orders));
         scheduleInfoList.AddRange(GetByDestination("YVR", flights, orders));
@@ -48,10 +51,36 @@ public class SchedulerService
         return scheduleInfoList;
     }
 
+    public List<ScheduleInfo> GetScheduleByPriority()
+    {
+        List<ScheduleInfo>? scheduleInfoList = new List<ScheduleInfo>();
+
+        FlightService flightService = new();
+        OrderService orderService = new();
+
+        List<FlightInfo>? flights = flightService.GetFlights();
+         Dictionary<string, Order>? ordersWithPrior = orderService.GetOrdersByPriority();
+
+        scheduleInfoList.AddRange(GetByDestination("YYZ", flights, ordersWithPrior));
+        scheduleInfoList.AddRange(GetByDestination("YYC", flights, ordersWithPrior));
+        scheduleInfoList.AddRange(GetByDestination("YVR", flights, ordersWithPrior));
+        scheduleInfoList.AddRange(GetByDestination("YYE", flights, ordersWithPrior));
+
+
+        return scheduleInfoList;
+    }
+
+    public List<ScheduleInfo> GetByFlight(int flightNumber)
+    {
+
+        List<ScheduleInfo>? scheduleInfoList = GetScheduleByPriority();
+        return scheduleInfoList.FindAll(s => s.FlightInfo != null && s.FlightInfo.FlightNumberVal == flightNumber);
+
+    }
+
     #endregion
 
     #region [ Private Methods]
-
 
     /// <summary>
     /// Returns Scheduling as per the Destination
@@ -76,7 +105,7 @@ public class SchedulerService
             FlightInfo flight = flights.Find(f => f.DestAirport.Code == kvp.Value.Destination && f.DayVal == dayCount);
 
 
-            
+
             if (flight != null)
             {
                 scheduleInfo.FlightInfo = flight;
@@ -99,7 +128,67 @@ public class SchedulerService
 
         }
 
-        return scheduleInfoList; 
+        return scheduleInfoList;
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="destination"></param>
+    /// <param name="flights"></param>
+    /// <param name="orders"></param>
+    /// <returns></returns>
+    private List<ScheduleInfo> GetByPriority(string destination, List<FlightInfo>? flights, Dictionary<string, Order>? orders)
+    {
+
+        List<ScheduleInfo>? scheduleInfoList = new List<ScheduleInfo>();
+
+        int boxCount = 0;
+        int dayCount = 1;
+
+        List<string> servicePriority = new() { "same-day", "next-day", "regular" };
+
+        foreach (string prior in servicePriority)
+        {
+            foreach (KeyValuePair<string, Order> kvp in orders.Where(o => o.Value.Destination == destination 
+                                && !string.IsNullOrWhiteSpace(o.Value.Service) && o.Value.Service == prior))
+            {
+
+
+                ScheduleInfo scheduleInfo = new ScheduleInfo();
+
+                FlightInfo flight = flights.Find(f => f.DestAirport.Code == kvp.Value.Destination && f.DayVal == dayCount);
+
+
+
+                if (flight != null)
+                {
+                    scheduleInfo.FlightInfo = flight;
+                }
+
+
+                scheduleInfo.OrderNumber = kvp.Key;
+                scheduleInfoList.Add(scheduleInfo);
+
+                //Console.WriteLine($"Order ID: {kvp.Key}, Destination: {kvp.Value.Destination}");
+
+                //boxCount++;
+
+                if (boxCount == Constants.MAX_CAPACITY-1)
+                {
+                    boxCount = 0;
+                    dayCount++;
+                }
+
+                boxCount++;
+
+            }
+        }
+
+
+       
+
+        return scheduleInfoList;
     }
 
     #endregion

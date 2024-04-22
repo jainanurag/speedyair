@@ -21,6 +21,16 @@ public class ScheduleInfo
 
     }
 
+    //public string ToStringByFlight()
+    //{
+    //    if (FlightInfo == null)
+    //        return $"Order:{OrderNumber}, flightNumber:not scheduled";
+    //    else
+    //        return $"flightNumber: {FlightInfo.FlightNumberVal}, departure: {FlightInfo.FromAirport.Code}, arrival: {FlightInfo.DestAirport.Code}, day: {FlightInfo.DayVal} , Order:{OrderNumber}";
+
+    //}
+
+
 }
 
 

@@ -32,12 +32,20 @@ public class OrderService
         return orderInfo;
     }
 
+    public Dictionary<string, Order>? GetOrdersByPriority()
+    {
+
+        string orderJson = File.ReadAllText(@"C:\dev\learn\dotnet\speedyair\SpeedyAir.Models\coding-assignment-orders-part-two.json");
+        Dictionary<string, Order>? orderInfo = JsonConvert.DeserializeObject<Dictionary<string, Order>>(orderJson);
+        return orderInfo;
+    }
+
 
     #endregion
 
     #region [ Private Methods]
 
-    
+
 
     #endregion
 
